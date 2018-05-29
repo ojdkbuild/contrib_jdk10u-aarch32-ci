@@ -41,7 +41,7 @@ deploy:
     - ${OJDK_IMAGE}.zip
     - ${OJDK_IMAGE}.zip.sha256
   on:
-    repo: ojdkbuild/contrib_jdk9u-aarch32-ci
+    repo: ojdkbuild/contrib_jdk10u-aarch32-ci
     tags: true
 
 notifications:
